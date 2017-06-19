@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="ecstyle.css" />
+<title>Electrical and Electronic</title>
+<script>var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</head>
+<body>
+
+    <div id="page">
+		
+        <div id="header">
+		
+
+            <ul>
+           	<li><a href="front.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               
+ <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <h1>Huemor</h1>
+        </div>
+  <div class="dotted_line"></div>
+        <div id="main">
+<h1>Electrical and Electronic</h1>
+<br />
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    
+    <img src="21.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="22.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+       <img src="23.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>        
+<div id="intro"> 
+<br />
+<p>Electrical engineering is a field of engineering that generally deals with the study and application of electricity, 
+electronics, and electromagnetism. This field first became an identifiable occupation in the later half of the 19th century 
+after commercialization of the electric telegraph, the telephone, and electric power distribution and use. Subsequently, 
+broadcasting and recording media made electronics part of daily life. The invention of the transistor, and later the integrated circuit, 
+brought down the cost of electronics to the point they can be used in almost any household object.
+<br />Electrical engineering has now subdivided into a wide range of subfields including electronics, digital computers, power engineering, 
+telecommunications, control systems, radio-frequency engineering, signal processing, instrumentation, and microelectronics. 
+Many of these subdisciplines overlap and also overlap with other engineering branches, spanning a huge number of specializations 
+such as hardware engineering, power electronics, electromagnetics & waves, microwave engineering, nanotechnology, electrochemistry, 
+renewable energies, mechatronics, electrical materials science, and many more.
+<br />
+Electrical engineers typically hold a degree in electrical engineering or electronic engineering. Practicing engineers may have professional 
+certification and be members of a professional body. Such bodies include the Institute of Electrical and Electronics Engineers (IEEE) and 
+the Institution of Engineering and Technology (professional society) (IET).
+<br />
+Electrical engineers work in a very wide range of industries and the skills required are likewise variable. 
+These range from basic circuit theory to the management skills required of a project manager. The tools and equipment 
+that an individual engineer may need are similarly variable, ranging from a simple voltmeter to a top end analyzer to 
+sophisticated design and manufacturing software.  	
+</div>           	
+<div class="main_bottom"></div>
+            
+       
+        
+      <br /> <br /><br />
+<h2> Study Material Links   </h2>
+<br /><br /><br /><br />
+<div id="study"><div class="container">
+  <img src="Electrical.jpg" alt="Avatar" class="img" ">
+  <div class="middle">
+    <div class="text">Electrical</div>
+  </div>
+</div><br />
+ <ul><br /><br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>Electrical</li><br />
+<ul><li><a href=https://www.youtube.com/user/UCBerkeley">UCBerkeley</a></li><br />
+<li><a href="http://www.electricalengineeringschools.org/">Engineer Schools</a></li><br />
+<li><a href="https://www.eeweb.com/">EE Web</a></li><br />
+<li><a href="https://www.ieee.org/index.html">IEEE</a></li><br />
+<li><a href="https://www.mikeholt.com/">Mike Holt</a></li><br />
+</ul>
+</div>
+<br /><br /><br /><br /><br /><br />
+<div id="study">
+<div class="container">
+  <img src="electronics.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">Electronics</div>
+  </div>
+</div>
+<ul><br /><br /><br /><br /><li>Electronics</li><br />
+<ul><li><a href="http://www.instructables.com/">Instrctables</a></li><br />
+<li><a href="https://www.raspberrypi.org/">Raspberrypi</a></li><br />
+<li><a href="https://www.ti.com/">Texas Instruments</a></li><br />
+<li><a href="http://www.circuitstoday.com/">Circuits Today</a></li><br />
+<li><a href="http://www.circuitstoday.com/">Gate Aspirant</a></li><br />
+<li><a href="https://www.arduino.cc/">Arduino</a></li><br />
+</ul>
+</div>
+
+
+ <br />
+      <div class="dotted_line"></div>
+        <div id="footer">
+ <br />
+<p> For any queries contact to us : </p> 
+<br />                         
+     <div class="chip">
+  <img src="Huemor.jpg" alt="Person" width="96" height="96">
+  <a href="contact.html">Huemor</a>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="chip1">
+<a href="contact.html">Huemor</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="Huemor.jpg" alt="Person" width="96" height="96">
+  
+</div>      
+              </div>
+               </body>
+</html>

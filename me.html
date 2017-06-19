@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="mestyle.css" />
+<title>Mechanical</title>
+<script>var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</head>
+<body>
+
+    <div id="page">
+		
+        <div id="header">
+		
+
+            <ul>
+           	<li><a href="front.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               
+ <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <h1>Huemor</h1>
+        </div>
+  <div class="dotted_line"></div>
+        <div id="main">
+<h1>Mechanical</h1>
+<br />
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    
+    <img src="31.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="33.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+       <img src="34.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>        
+<div id="intro"> 
+<br />
+<p>Mechanical engineering is the discipline that applies the principles of engineering, physics, and materials science for the design, 
+analysis, manufacturing, and maintenance of mechanical systems. 
+It is the branch of engineering that involves the design, production, and operation of machinery.
+It is one of the oldest and broadest of the engineering disciplines.
+<br />The mechanical engineering field requires an understanding of core areas including mechanics, 
+kinematics, thermodynamics, materials science, structural analysis, and electricity. 
+Mechanical engineers use these core principles along with tools like computer-aided design, 
+and product lifecycle management to design and analyze manufacturing plants, industrial equipment and machinery, 
+heating and cooling systems, transport systems, aircraft, watercraft, robotics, medical devices, weapons, and others.
+<br />
+Mechanical engineering emerged as a field during the Industrial Revolution in Europe 
+in the 18th century; however, its development can be traced back several thousand years around the world.
+Mechanical engineering science emerged in the 19th century as a result of developments in the field of physics.
+<br />
+The field has continually evolved to incorporate advancements in technology, 
+and mechanical engineers today are pursuing developments in such fields as composites, 
+mechatronics, and nanotechnology. Mechanical engineering overlaps with aerospace engineering, 
+metallurgical engineering, civil engineering, electrical engineering, manufacturing engineering, 
+chemical engineering, industrial engineering, and other engineering disciplines to varying amounts. 
+Mechanical engineers may also work in the field of biomedical engineering, specifically with biomechanics, 
+transport phenomena, biomechatronics, bionanotechnology, and modeling of biological systems.  	
+</div>           	
+<div class="main_bottom"></div>
+      <br /> <br /><br />
+<h2> Study Material Links   </h2>
+<br /><br /><br /><br />
+<div id="study"><div class="container">
+  <img src="gokart.jpg" alt="Avatar" class="img" ">
+  <div class="middle">
+    <div class="text">Gokart</div>
+  </div>
+</div><br />
+ <ul><br /><br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>GoKart</li><br />
+<ul>
+<li><a href="http://kartfab.com/">KartFab</a></li><br />
+<li><a href="http://kartbuilding.net/">Kart-Building</a></li><br />
+<li><a href="http://kart360.com/">Kart360</a></li><br />
+</ul>
+</div>
+<br /><br /><br /><br /><br /><br />
+<div id="study">
+<div class="container">
+  <img src="atv.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">ATV</div>
+  </div>
+</div>
+<ul><br /><br /><br /><br /><li>ATV</li><br />
+<ul><li><a href="https://www.motorsport.com/in/">Motorsports</a></li><br />
+<li><a href="https://www.bajatutor.org/">BajaTutor</a></li><br />
+</ul>
+</div>
+
+<br /><br /><br /><br /><br /><br />
+<div id="study">
+<div class="container">
+  <img src="solid.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">Others</div>
+  </div>
+</div>
+<ul><br /><br /><br /><br /><li>Others</li><br />
+<ul><li><a href="http://icrank.com/cgi-bin/pageman/pageout.cgi?path=/index_html.html">I-Crank</a></li><br />
+<li><a href="http://www.mechanicalengineeringblog.com/">Blog</a></li><br />
+<li><a href="https://mechanicalc.com/">Mechanical-Calc</a></li><br />
+<li><a href="http://matweb.com/">SolidWorks ANSYS</a></li><br />
+</ul>
+</div>
+
+ <br />
+      <div class="dotted_line"></div>
+        <div id="footer">
+ <br />
+<p> For any queries contact to us : </p> 
+<br />                         
+     <div class="chip">
+  <img src="Huemor.jpg" alt="Person" width="96" height="96">
+  <a href="contact.html">Huemor</a>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="chip1">
+<a href="contact.html">Huemor</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="Huemor.jpg" alt="Person" width="96" height="96">
+  
+</div>      
+              </div>
+               </body>
+</html>

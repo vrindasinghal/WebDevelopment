@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="cestyle.css" />
+<title>Civil</title>
+<script>var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</head>
+<body>
+
+    <div id="page">
+		
+        <div id="header">
+		
+
+            <ul>
+           	<li><a href="front.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               
+ <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <h1>Huemor</h1>
+        </div>
+  <div class="dotted_line"></div>
+        <div id="main">
+<h1> Civil</h1>
+<br />
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    
+    <img src="41.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="42.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+       <img src="43.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+ <div class="mySlides fade">
+    
+    <img src="44.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>        
+<div id="intro"> 
+<br />
+<p>Civil engineering is a professional engineering discipline that deals with the design, 
+construction, and maintenance of the physical and naturally built environment, including works like roads
+, bridges, canals, dams, and buildings. Civil engineering is traditionally broken into a number 
+of sub-disciplines. It is the second-oldest engineering discipline after military engineering, and it 
+is defined to distinguish non-military engineering from military engineering. Civil engineering takes place 
+in the public sector from municipal through to national governments, and in the private sector from individual 
+homeowners through to international companies.        	
+</div>           	
+<div class="main_bottom"></div>
+            <br /> 
+<h2> Study Material Links   </h2>
+
+
+<div id="study">
+<div class="container">
+  <img src="auto.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">Auto-Cad</div>
+  </div>
+</div>
+
+<br /><br /><br />
+<li>Autocad</li><br />
+<ul><li><a href="https://www.mycadsite.com/">My-Cad</a></li><br />
+<li><a href="http://www.cadtutor.net/">Cad-tutor</a></li><br />
+</ul>
+
+</div>
+
+<div id="study">
+<div class="container">
+  <img src="sap.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">Sap</div>
+  </div>
+</div>
+<br /><br /><br /><li>Sap</li><br />
+<ul><li><a href="https://www.sap.com/india/solution/industry/engineering-construction-operations.html">Sap-India</a></li><br />
+<li><a href="http://sap.ittoolbox.com/groups/career/sap-career/sap-for-civil-engineer-1043515">Sap-toolbox</a></li><br />
+</ul>
+</div>
+
+
+<div id="study">
+<div class="container">
+  <img src="online.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">More</div>
+  </div>
+</div>
+<br /><br /><br /><li>Online Learning</li><br />
+<ul><li><a href="http://aboutcivil.org/">About-Civil</a></li><br />
+<li><a href="http://www.civilenggforall.com/">For-All</a></li><br />
+<li><a href="http://studentsuvidha.com">Student Suvidha</a></li><br />
+<li><a href="https://www.youtube.com/user/2927air">Nikhil Verma</a></li><br />
+<li><a href="https://www.youtube.com/channel/UCltVEZ6GecWntoZ19FvaWhQ">Ekeeda</a></li><br />
+<li><a href="https://www.youtube.com/user/structurefree">Structure-Free</a></li><br />
+</ul>
+</div>
+</ul>
+
+ <br />
+      <div class="dotted_line"></div>
+        <div id="footer">
+ <br />
+<p> For any queries contact to us : </p> 
+<br />                         
+     <div class="chip">
+  <img src="Huemor.jpg" alt="Person" width="96" height="96">
+  <a href="contact.html">Huemor</a>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="chip1">
+<a href="contact.html">Huemor</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="Huemor.jpg" alt="Person" width="96" height="96">
+  
+</div>      
+              </div>
+               </body>
+</html>

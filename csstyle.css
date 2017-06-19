@@ -1,0 +1,330 @@
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image:url(background.png);
+	text-align: left;
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-size: 13px;
+	color: #F1F5F8;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+.dotted_line
+{
+background-image:url(dotted_line.png);
+background-repeat:no-repeat;
+clear:both;
+width:916px;
+height:5px;
+}
+
+
+
+#header
+{
+background-image:url(header.png);
+background-repeat:no-repeat;
+width:921px;
+}
+
+
+
+
+#header h1
+{
+display:block;
+float:right;
+margin-left:17px;
+color:#FFFFFF;
+text-align:left;
+font-size:25px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+padding-right:20px;
+}
+
+
+#header ul {
+display:block;
+	padding: 0px;
+	list-style-type: none;
+	overflow:hidden;
+	width:650px;
+	float:left;
+}
+#header ul li , #header ul li a, #header ul li a:visited{
+	float:left;
+	margin: 0px;
+	text-align:center;
+	line-height:40px;
+	color:#FFFFFF;
+	font-size:25px;
+	font-weight:bold;
+	text-decoration:none;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#header ul li a:hover{
+color:#C9E1FA;
+}
+
+
+
+#main 
+{
+width:916px;
+margin-top:30px;
+margin-bottom:15px;
+}
+
+
+
+#page
+{
+  margin: 0 auto 0 auto; 
+  margin-top:35px;
+  display: block; 
+  height:auto;
+   
+  overflow: hidden; 
+  width: 921px;
+}
+
+
+#footer {
+font-size:25px;
+line-height:25px;
+}
+
+#footer ul {
+display:block;
+	padding: 0px;
+	list-style-type: none;
+	overflow:hidden;
+		float:right;
+}
+#footer, #footer a, #footer a:visited{
+color:#FFFFFF;
+}
+
+#footer a:hover{
+text-decoration:none;
+color:#C9E1FA;
+}
+
+#intro {font-size: 18px;
+        }
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+#study  { display: inline-block;
+    width: 400px;
+    height: 20px;
+     margin: 20px;
+    font-size: 15px;
+      }
+
+
+.container {
+    
+position: relative;
+    width: 40%;
+}
+
+.img {
+  opacity: 1;
+   width: 200%;
+  height: 200%;
+  transition: .3s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.2;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  padding: 10px 40px;
+}
+
+h2 {
+    text-shadow: 3px 2px red;
+    text-decoration:
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color:green:;
+  font-weight: bold;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.chip1 {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color:green:;
+  font-weight: bold;
+}
+
+.chip1 img {
+    float: right;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+a {
+    color: black;
+	text-decoration: none;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}

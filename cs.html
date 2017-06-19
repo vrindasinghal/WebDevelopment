@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="csstyle.css" />
+<title>Computer Science</title>
+<script>var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</head>
+<body>
+
+    <div id="page">
+		
+        <div id="header">
+		
+
+            <ul>
+           	<li><a href="front.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               
+ <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <h1>Huemor</h1>
+        </div>
+  <div class="dotted_line"></div>
+        <div id="main">
+<h1> Computer Science</h1>
+<br />
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    
+    <img src="1234.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="2.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+       <img src="3.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+ <div class="mySlides fade">
+    
+    <img src="4.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>        
+<div id="intro"> 
+<br />
+<p>Computer science is the study of the theory, experimentation, and engineering that form the basis for the design and use of computers. 
+It is the scientific and practical approach to computation and its applications and the systematic study of the feasibility, 
+structure, expression, and mechanization of the methodical procedures (or algorithms) that underlie the acquisition, representation, 
+processing, storage, communication of, and access to information. An alternate, more succinct definition of computer science is the study of automating 
+algorithmic processes that scale. A computer scientist specializes in the theory of computation and the design of computational systems.
+
+Its fields can be divided into a variety of theoretical and practical disciplines. 
+Some fields, such as computational complexity theory (which explores the fundamental properties of computational and intractable problems), 
+are highly abstract, while fields such as computer graphics emphasize real-world visual applications. 
+Other fields still focus on challenges in implementing computation. For example, programming language theory considers 
+various approaches to the description of computation, while the study of computer programming itself investigates various aspects of the use of 
+programming language and complex systems. Human computer interaction considers the challenges in making computers and computations useful, 
+usable, and universally accessible to humans.        	
+</div>           	
+<div class="main_bottom"></div>
+            <br /> 
+<h2> Study Material Links   </h2>
+
+<div id="study"><div class="container">
+  <img src="hack.jpg" alt="Avatar" class="img" ">
+  <div class="middle">
+    <div class="text">Hack</div>
+  </div>
+</div>
+ <ul><li>Ethical Hacking</li><br />
+<ul><li><a href="https://www.cybrary.it/">Cybrary</a></li><br />
+<li><a href="http://www.hacking-tutorial.com/">Hackingtutorial</a></li><br /></ul>
+</div>
+<div id="study">
+<div class="container">
+  <img src="web.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">WEB</div>
+  </div>
+</div>
+<li>Web Developement</li><br />
+<ul><li><a href="https://www.w3schools.com/html/">W3 Schools</a></li><br />
+<li><a href="https://www.codecademy.com/">Code Academy</a></li><br />
+<li><a href="https://www.tutorialspoint.com/">Tutorials Point</a></li><br /></ul>
+</div>
+<div id="study">
+<div class="container">
+  <img src="programming_01_0.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">Programming</div>
+  </div>
+</div>
+<li>Programming</li><br />
+<ul><li><a href="https://www.codechef.com/">Codechef</a></li><br />
+<li><a href="http://codeforces.com/">CodeForces</a></li><br />
+<li><a href="https://www.hackerrank.com/">Hackerrank</a></li><br />
+<li><a href="https://www.hackerearth.com/">Hackerearth</a></li><br />
+<li><a href="https://www.topcoder.com/">Top Coder</a></li><br /></ul>
+</div>
+<div id="study">
+<div class="container">
+  <img src="data.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">DS&Algo</div>
+  </div>
+</div>
+<li>Data Structures And Algorithm</li><br />
+<ul><li><a href="http://www.geeksforgeeks.org/">GeekforGeeks</a></li><br />
+<li><a href="https://www.youtube.com/watch?v=pthAabQJ3lA">Algorithms Made Easy by Narshima Karumanchi</a></li><br />
+<li><a href="https://www.youtube.com/watch?v=aGjL7YXI31Q">Youtube Lectures by Ravindrababu Ravula</a></li><br /></ul>
+</div>
+<div id="study">
+<div class="container">
+  <img src="soft.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">Software</div>
+  </div>
+</div>
+<li>Software Developement</li><br />
+<ul><li><a href="http://vogella.com/">Vogella</a></li><br />
+<li><a href="https://www.udacity.com/nanodegree">Udacity Nanodegree Course</a></li><br />
+<li><a href="https://developer.android.com/guide/index.html">Android Developer Documentation</a></li><br /></ul>
+</div>
+<div id="study">
+<div class="container">
+  <img src="online.jpg" alt="Avatar" class="img">
+  <div class="middle">
+    <div class="text">More</div>
+  </div>
+</div>
+<li>Online Learning</li><br />
+<ul><li><a href="https://in.udacity.com/">Udacity</a></li><br />
+<li><a href="https://www.edx.org/">Edx</a></li><br />
+<li><a href="https://www.coursera.org/">Coursea</a></li><br /></ul>
+</div>
+</ul>
+
+ <br />
+      <div class="dotted_line"></div>
+        <div id="footer">
+ <br />
+<p> For any queries contact to us : </p> 
+<br />                         
+     <div class="chip">
+  <img src="Huemor.jpg" alt="Person" width="96" height="96">
+  <a href="contact.html">Huemor</a>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="chip1">
+<a href="contact.html">Huemor</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="Huemor.jpg" alt="Person" width="96" height="96">
+  
+</div>      
+              </div>
+               </body>
+</html>
